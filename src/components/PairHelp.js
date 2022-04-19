@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function PairHelp(props){
+function PairHelp(){
   return (
     <React.Fragment>
       <h3>Have you asked another pair for help?</h3>
