@@ -4,10 +4,11 @@ import PropTypes from "prop-types";
 function Ticket(props){
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenTicketClicked(props.id)}>
+      <div>
         { /* We add a div with an onClick function. Don't forget to close out the div below! */}
         <h3>{props.location} - {props.names}</h3>
         <p><em>{props.issue}</em></p>
+        <button onClick = {() => props.whenTicketClicked(props.id)}>View Details</button>
         <hr/>
       </div>
     </React.Fragment>
